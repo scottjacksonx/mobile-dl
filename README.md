@@ -8,6 +8,8 @@ All you do is paste the URL of the video file (or audio file, or *anything* -- a
 
 ##Setup
 
+[I made a screencast showing how to set mobile-dl up.](http://vimeo.com/10278681)
+
 If you know a little Unix, setting mobile-dl up will be super-easy. First, here's what you need. Most people who are going to see this project already have this stuff, but I just want to be clear. You need:
 
 - a home computer with a Unix-y environment ([Cygwin](http://www.cygwin.com/) will do if you're on Windows)
