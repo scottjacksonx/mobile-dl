@@ -12,7 +12,7 @@ First, here's what you need. Most people already have this stuff, but I just wan
 
 - a home computer with a Unix-y environment ([Cygwin](http://www.cygwin.com/) will do if you're on Windows)
 - [Python](http://python.org) 2.6 or above
-- [`curl`](http://en.wikipedia.org/wiki/Curl_(Unix))
+- [`curl`][curl]
 - A [Simplenote](http://simplenoteapp.com/) account
 - an iPhone with Simplenote installed (the iPhone is optional, but it's kinda the whole reason I built mobile-dl)
 
@@ -56,3 +56,6 @@ Put simply, a single line can be `[nothing (so, just a newline) | a URL | your u
 ##Credits
 
 I used [samuel](http://github.com/samuel)'s [python-simplenote](http://github.com/samuel/python-simplenote) wrapper for the Simplenote API, though I had to tweak his code a little bit. Doing a `diff` on his `simplenote.py` and my `simplenote.py` will show you the changes.
+
+
+[curl]: http://en.wikipedia.org/wiki/Curl_(Unix)
