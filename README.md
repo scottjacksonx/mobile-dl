@@ -1,6 +1,6 @@
 #mobile-dl
 
-mobile-dl is kinda like [Instapaper](http://instapaper.com) for media other than text.
+mobile-dl is a roll-your-own [Instapaper](http://instapaper.com) for rich media.
 
 So you're out and about and you see on your iPhone (maybe on Twitter, maybe somewhere on the internet) that someone made a video you want to watch. You can't watch it right now, but you want to save it for later.
 
@@ -11,7 +11,7 @@ All you do is paste the URL of the video file (or audio file, or *anything* -- a
 First, here's what you need. Most people already have this stuff, but I just want to be clear. You need:
 
 - a home computer with a Unix-y environment ([Cygwin](http://www.cygwin.com/) will do if you're on Windows)
-- [Python](http://python.org) 2.6 or above
+- [Python](http://python.org) 2.6+ (or an earlier version of Python with `json` installed)
 - [`curl`][curl]
 - A [Simplenote](http://simplenoteapp.com/) account
 - an iPhone with Simplenote installed (the iPhone is optional, but it's kinda the whole reason I built mobile-dl)
