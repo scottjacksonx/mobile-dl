@@ -30,6 +30,20 @@ verbose = 0
 if len(sys.argv) == 2:
 	if sys.argv[1] == "-v" or sys.argv[1] == "-verbose" or sys.argv[1] == "-noisy":
 		verbose = 1
+	else:
+		print "Invalid argument '" + sys.argv[1] + "'"
+		print "Usage: python mobile-dl.py [-noisy | -log <log_filename>]"
+		sys.exit()
+elif len(sys.argv) == 3:
+	if sys.argv[1] == "-log":
+		filename = sys.argv[2]
+		verbose = 1
+		fsock = open(filename, 'w')
+		sys.stdout = fsock
+	else:
+		print "Invalid arguments '" + sys.argv[1] + " " + sys.argv[2] + "'"
+		print "Usage: python mobile-dl.py [-noisy | -log <log_filename>]"
+		sys.exit()
 
 if verbose:
 	print str(datetime.now()) + " Logging into Simplenote"
