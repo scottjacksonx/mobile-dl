@@ -31,7 +31,7 @@ OK, so here's how to set mobile-dl up. There's two parts -- the "client" and the
 2. Edit the user-specific values at the top of `mobile-dl.py` (your Simplenote credentials, your unique phrase, the directory you want your files to be downloaded to, and how often you want your home computer to check for new files).
 3. Run `mobile-dl.py`. Your home computer is now watching your note for changes.
 
-By default, mobile-dl runs silently -- it won't print anything. This is so you can run it in the background and not have it disturb you. If you want mobile-dl to print to the terminal when it does anything, run `mobile-dl.py` with the `-v` switch (`-verbose` and `-noisy` also work).
+By default, mobile-dl runs silently -- it won't print anything. This is so you can run it in the background and not have it disturb you. If you want mobile-dl to print to the terminal when it does anything, run `mobile-dl.py` with the `-noisy` switch (`-v` and `-verbose` also work). Also, running `mobile-dl.py` with the `-log <log_filename>` switch will make mobile-dl print a log to the file `<log_filename>`.
 
 ##Adding a File
 
