@@ -2,6 +2,8 @@
 
 mobile-dl is a roll-your-own [Instapaper](http://instapaper.com) for rich media.
 
+I've also created a Mac app, [NoteTote](http://notetoteapp.com), that has basically the same premise. If you're on a Mac, NoteTote is the better choice.
+
 So you're out and about and you see on your iPhone (maybe on Twitter, maybe somewhere on the internet) that someone made a video you want to watch. You can't watch it right now, but you want to save it for later.
 
 All you do is paste the URL of the video file (or audio file, or *anything* -- any valid URL is fine) into a specific note in Simplenote -- when you get home, your video is there on your computer for you to watch.
